@@ -1,0 +1,67 @@
+import { Watch } from '@/types';
+
+export const watches: Watch[] = [
+  {
+    id: 1,
+    name: 'Chronomaster Apex',
+    brand: 'Aethelred',
+    price: 4500,
+    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop',
+    isNew: true,
+  },
+  {
+    id: 2,
+    name: 'Navigator\'s Legacy',
+    brand: 'Breitling',
+    price: 7800,
+    imageUrl: 'https://images.unsplash.com/photo-1542496658-60b36a01095a?q=80&w=800&auto=format&fit=crop',
+    isBestSeller: true,
+  },
+  {
+    id: 3,
+    name: 'Stellaris Automaton',
+    brand: 'Orion',
+    price: 6200,
+    imageUrl: 'https://images.unsplash.com/photo-1620625515032-6ed0a143c3da?q=80&w=800&auto=format&fit=crop',
+    isBestSeller: true,
+  },
+  {
+    id: 4,
+    name: 'Regal Tourbillon',
+    brand: 'Patek Philippe',
+    price: 12500,
+    imageUrl: 'https://images.unsplash.com/photo-1612811139499-58a7ab04c18a?q=80&w=800&auto=format&fit=crop',
+    isNew: true,
+  },
+  {
+    id: 5,
+    name: 'Ocean Dweller Pro',
+    brand: 'Rolex',
+    price: 9500,
+    imageUrl: 'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop',
+    isBestSeller: true,
+  },
+  {
+    id: 6,
+    name: 'Heritage Classic',
+    brand: 'Tudor',
+    price: 3800,
+    imageUrl: 'https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    id: 7,
+    name: 'Lunar Phase Master',
+    brand: 'Jaeger-LeCoultre',
+    price: 11200,
+    imageUrl: 'https://images.unsplash.com/photo-1580870165954-dc943d1890fa?q=80&w=800&auto=format&fit=crop',
+    isNew: true,
+  },
+  {
+    id: 8,
+    name: 'Speedmaster Chrono',
+    brand: 'Omega',
+    price: 5900,
+    imageUrl: 'https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=800&auto=format&fit=crop',
+    isBestSeller: true,
+  },
+];
